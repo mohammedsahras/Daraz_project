@@ -21,6 +21,38 @@ body {
     font-size: 11px;
 }
 
+.btn1:hover {
+box-shadow: transparent;
+  transform: translateY(2px);
+  color: white;
+}
+
+.btn2:hover {
+box-shadow: transparent;
+  transform: translateY(2px);
+  color: white;
+}
+.btn3:hover {
+box-shadow: transparent;
+  transform: translateY(2px);
+  color: white;
+}
+
+.btn4:hover {
+box-shadow: transparent;
+  transform: translateY(2px);
+  color: white;
+}
+
+
+.btn5:hover {
+box-shadow: transparent;
+  transform: translateY(2px);
+  color: white;
+}
+
+
+
 .top-nav-links {
   display: flex;
   justify-content: flex-end;
@@ -30,7 +62,7 @@ body {
 
 .top-nav-links a {
   text-decoration: none;
-  color: #ffd9c7;
+  color: #eef086;
   font-weight: bold;
 }
 
@@ -134,6 +166,11 @@ body {
   border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.shop-btn:hover {
+  background-color: white;
+  border: 3px solid yellow;
 }
 
 
@@ -322,3 +359,111 @@ input[type="radio"] { display: none; }
    display: block; 
    margin-top: 8px;
    }
+
+
+
+   /* flash section */
+.section-container {
+  margin-top: 35px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #424242;
+  margin-bottom: 10px;
+}
+
+.flash-sub {
+  background: white;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.active-tab { 
+  color: #f85606;
+   font-weight: bold;
+    border-bottom: 2px solid #f85606;
+     padding-bottom: 8px;
+     }
+     
+.shop-btn1 {
+   text-decoration: none;
+    border: 1px solid orange;
+     color: #f85606;
+      padding: 6px 12px;
+       font-size: 12px;
+        font-weight: bold;
+       }
+ .shop-btn1:hover{
+  background-color: #f0f0f0;
+ }      
+
+/* Products Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  background: white;
+  padding: 10px;
+}
+
+.product-card {
+  background: white;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  box-shadow: 0 32px 28px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.offer {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #ff0000;
+  color: white;
+  font-size: 9px;
+  padding: 2px 4px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 12px;
+  color: #212121;
+  margin: 8px 0;
+  line-height: 1.3;
+  height: 32px;
+  overflow: hidden;
+}
+
+.product-price {
+  color: #f85606;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.original-price {
+  font-size: 11px;
+  color: #9e9e9e;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: #212121;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+
